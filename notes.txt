@@ -27,3 +27,8 @@ i guess i could just write positions like 4 times
 
 then id just use diff names for the different methods
 and positions() would default to inorder or something.
+
+should i have another class to encapsulate LinkedBinaryTree
+and just write methods in there?
+
+idk i'm gonna take a break
