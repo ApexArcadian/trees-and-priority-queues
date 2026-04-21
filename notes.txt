@@ -1,0 +1,4 @@
+we copied the post fix examples from prev project
+
+goal is to create a BinaryExpressionTree out of them then
+evaluate it
