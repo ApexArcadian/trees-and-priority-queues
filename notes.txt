@@ -17,3 +17,6 @@ i'm gonna follow the books implementations letter by letter
 first thing I need is a base class tree
 because i like doing things that way
 the bigger my files/functions are the more my head hurts
+
+wow it is now clear to me that LLMS ingested this whole textbook
+as soon as i started the base class i could just press tab the whole time
