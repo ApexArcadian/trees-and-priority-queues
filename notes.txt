@@ -20,3 +20,42 @@ the bigger my files/functions are the more my head hurts
 
 wow it is now clear to me that LLMS ingested this whole textbook
 as soon as i started the base class i could just press tab the whole time
+
+now that we have a tree class we need a binary tree class
+
+binary tree class copied from textbook
+
+now linkedbinarytree
+
+^ this is the data structure we will use to actually implement
+
+ok i take pee beak
+
+i keep forgetting what i'm doing and time passes at an accelerating rate
+which far outpaces my brain development or ability to fill the void with
+meaningful activity
+
+
+since we have the linkedbinarytree we need to actually implement
+and construct one
+
+this is for some reason the part that hurts my head
+i feel like if i just told the ai to write me a visualizer
+my brain would immediately understand it
+BUT I REFUSE TO DO IT THE EASY WAY PROFESSOR
+
+T = BinaryExpressionTree()
+T.build_from_postfix("3 2 5 * +")
+T.infix_traversal()   # "(3 + (2 * 5))"
+T.postfix_traversal() # "3 2 5 * +"
+T.evaluate_tree()     # 13.0
+
+this is what i have to be able to actually do
+
+the psuedocode for the algorithm is to long to include in this note
+wait is the linkedbinarytree even enough or do i need to start over uhg
+
+no so linkedbinarytree composes the "expressiontree" given
+with the textbook
+
+so we have to fully implement that
