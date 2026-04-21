@@ -72,3 +72,5 @@ so useful yet so bad for me
 now we can evaluate expression trees
 
 we need to construct one from the postfix data
+
+lotta missing methods
