@@ -2,3 +2,12 @@ we copied the post fix examples from prev project
 
 goal is to create a BinaryExpressionTree out of them then
 evaluate it
+
+the very first things we need are base classes
+
+i need to be able to interact with this data
+
+trees have nodes but id rather encapsulate them like the book says
+i don't want to use them heavy handedly in main
+
+i'm gonna go outside now
