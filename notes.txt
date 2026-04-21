@@ -11,3 +11,9 @@ trees have nodes but id rather encapsulate them like the book says
 i don't want to use them heavy handedly in main
 
 i'm gonna go outside now
+ok i'm back inside idk why i did that
+i'm gonna follow the books implementations letter by letter
+
+first thing I need is a base class tree
+because i like doing things that way
+the bigger my files/functions are the more my head hurts
