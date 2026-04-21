@@ -62,3 +62,13 @@ so we have to fully implement that
 
 maybe this is actually the worst way to implement it
 so much abstraction
+
+now we're copying the expression tree from the book
+
+i sure hate to love this ai autocomplete
+
+so useful yet so bad for me
+
+now we can evaluate expression trees
+
+we need to construct one from the postfix data

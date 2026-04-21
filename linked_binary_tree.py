@@ -86,7 +86,7 @@ class LinkedBinaryTree(BinaryTree):
         self._size += 1
         node._right = self._Node(e, node)
         return self._make_position(node._right)
-    def _reeplace(self, p, e):
+    def _replace(self, p, e):
         node = self._validate(p)
         old = node._element
         node._element = e
