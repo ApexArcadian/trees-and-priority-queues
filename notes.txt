@@ -12,3 +12,18 @@ step 1
     4   7   13
 
     make this tree
+
+now we write traversal algorithms
+
+we must implement __iter__ for one of the tree classes
+
+should it be the most surface level one or the tree class? idk
+the positions() method is what actually returns them
+
+i'm not sure how to go about testing the different traversal types
+since the class can have only one positions method
+
+i guess i could just write positions like 4 times
+
+then id just use diff names for the different methods
+and positions() would default to inorder or something.
