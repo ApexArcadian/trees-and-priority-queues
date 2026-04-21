@@ -1,76 +1,14 @@
-we copied the post fix examples from prev project
-
-goal is to create a BinaryExpressionTree out of them then
-evaluate it
-
-the very first things we need are base classes
-
-i need to be able to interact with this data
-
-trees have nodes but id rather encapsulate them like the book says
-i don't want to use them heavy handedly in main
-
-i'm gonna go outside now
-ok i'm back inside idk why i did that
-i'm gonna follow the books implementations letter by letter
-
-first thing I need is a base class tree
-because i like doing things that way
-the bigger my files/functions are the more my head hurts
-
-wow it is now clear to me that LLMS ingested this whole textbook
-as soon as i started the base class i could just press tab the whole time
-
-now that we have a tree class we need a binary tree class
-
-binary tree class copied from textbook
-
-now linkedbinarytree
-
-^ this is the data structure we will use to actually implement
-
-ok i take pee beak
-
-i keep forgetting what i'm doing and time passes at an accelerating rate
-which far outpaces my brain development or ability to fill the void with
-meaningful activity
+new notes for traversal project
 
 
-since we have the linkedbinarytree we need to actually implement
-and construct one
+step 1
 
-this is for some reason the part that hurts my head
-i feel like if i just told the ai to write me a visualizer
-my brain would immediately understand it
-BUT I REFUSE TO DO IT THE EASY WAY PROFESSOR
+       8
+      /  \
+    3     10
+   / \      \
+  1   6      14
+     / \     /
+    4   7   13
 
-T = BinaryExpressionTree()
-T.build_from_postfix("3 2 5 * +")
-T.infix_traversal()   # "(3 + (2 * 5))"
-T.postfix_traversal() # "3 2 5 * +"
-T.evaluate_tree()     # 13.0
-
-this is what i have to be able to actually do
-
-the psuedocode for the algorithm is to long to include in this note
-wait is the linkedbinarytree even enough or do i need to start over uhg
-
-no so linkedbinarytree composes the "expressiontree" given
-with the textbook
-
-so we have to fully implement that
-
-maybe this is actually the worst way to implement it
-so much abstraction
-
-now we're copying the expression tree from the book
-
-i sure hate to love this ai autocomplete
-
-so useful yet so bad for me
-
-now we can evaluate expression trees
-
-we need to construct one from the postfix data
-
-lotta missing methods
+    make this tree

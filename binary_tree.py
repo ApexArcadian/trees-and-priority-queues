@@ -34,3 +34,7 @@ class BinaryTree(Tree):
             yield self.right(p)
             
     #-- binary tree constructor
+    def __init__(self):
+        """Creates an empty binary tree."""
+        super().__init__()
+        # Root is None (inherited from Tree)
