@@ -1,3 +1,5 @@
+from linked_binary_tree import LinkedBinaryTree
+
 tree_visual = """
        8
       /  \
@@ -7,9 +9,8 @@ tree_visual = """
      / \     /
     4   7   13
 """
-#tree to be constructed ^
 
-from linked_binary_tree import LinkedBinaryTree
+  
 
 tree = LinkedBinaryTree()
 # Construct the tree according to the visual representation
@@ -30,6 +31,18 @@ node6._right = node7
 node14 = tree._Node(14, parent=node10)
 node10._right = node14
 node13 = tree._Node(13, parent=node14)
+node14._left = node13
 
 #this is hideous but it works
 
+print("PREORDER:")
+for node in tree.positions('preorder'):
+    print(node.element())
+
+print("INORDER:")
+for node in tree.positions('inorder'):
+    print(node.element())
+
+print("POSTORDER:")
+for node in tree.positions('postorder'):
+    print(node.element())
